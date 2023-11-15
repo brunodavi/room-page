@@ -16,10 +16,40 @@
   }
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+body {
+  @apply text-sm;
 }
-.attribution a {
+
+section {
+  @apply px-5 py-14;
+}
+
+h1 {
+  @apply font-bold text-4xl mb-3;
+}
+
+h3 {
+  @apply font-bold text-base tracking-widest mb-3 uppercase;
+  letter-spacing: 0.3em;
+}
+
+
+p {
+  @apply text-secondary font-semibold;
+}
+
+footer {
+  @apply my-5 px-5 text-center;
+  font-size: 11px;
+}
+
+
+.link {
+  @apply hover:underline;
   color: hsl(228, 45%, 44%);
+}
+
+.shop {
+  @apply text-primary font-semibold uppercase;
+  letter-spacing: 0.8em;
 }

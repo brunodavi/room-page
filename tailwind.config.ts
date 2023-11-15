@@ -14,6 +14,11 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+
+    screens: {
+      sm: { min: '280px', max: '1199px' },
+      lg: { min: '1200px', max: '1440px' },
+    }
   },
   daisyui: {
     themes: [
