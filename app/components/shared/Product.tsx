@@ -1,13 +1,9 @@
-import Image from "next/image"
-
 type ProductType = {
   title: string,
   description: string,
 
   className?: string,
 }
-
-// <Image className="fill-white" src="/images/icon-arrow.svg" width={40} height={3} alt="icon-arrow" />
 
 export default function Product(props: ProductType) {
   return (
@@ -26,8 +22,6 @@ export default function Product(props: ProductType) {
           </svg>
         </button>
       </div>
-
-
     </section>
   )
 }

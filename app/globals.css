@@ -16,6 +16,7 @@
   }
 }
 
+
 body {
   @apply text-sm;
 }
@@ -32,7 +33,6 @@ h3 {
   @apply font-bold text-base tracking-widest mb-3 uppercase;
   letter-spacing: 0.3em;
 }
-
 
 p {
   @apply text-secondary font-semibold;
