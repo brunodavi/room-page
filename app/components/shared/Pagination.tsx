@@ -1,5 +1,8 @@
 import Image from "next/image";
+
 import { SetStateAction } from "react";
+
+import useIndexNavigation from "@/app/utils/useIndexNavigation";
 
 type PaginationType = {
   iconSize: number,
@@ -9,29 +12,7 @@ type PaginationType = {
 }
 
 export default function Pagination({ iconSize, limit, setIndex }: PaginationType) {
-  const handleNext = () => {
-    setIndex(
-      (prevIndex) => {
-        if (prevIndex >= limit){
-          return 0
-        }
-
-        return prevIndex + 1
-      }
-    )
-  }
-
-  const handlePrevious = () => {
-    setIndex(
-      (prevIndex) => {
-        if (prevIndex <= 0) {
-          return limit
-        }
-
-        return prevIndex - 1
-      }
-    )
-  }
+  const [handlePrevious, handleNext] = useIndexNavigation(setIndex, limit)
 
   return (
     <>

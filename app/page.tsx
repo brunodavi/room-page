@@ -7,6 +7,7 @@ import HeaderMobile from "./components/mobile/HeaderMobile";
 import HeaderDesktop from "./components/desktop/HeaderDesktop";
 import Pagination from "./components/shared/Pagination";
 import About from "./components/shared/About";
+import useIndexNavigation from "./utils/useIndexNavigation";
 
 const productList = [
   {
@@ -45,10 +46,23 @@ export default function Home() {
   const [productIndex, setProductIndex] = useState(0);
   const product = productList[productIndex];
 
+  const [handlePrevious, handleNext] = useIndexNavigation(setProductIndex, 2)
+
+  function handleKeyDown({ key }: { key: string }) {
+    const handleKeys: Record<string, () => void> = {
+      ArrowLeft: handlePrevious,
+      ArrowRight: handleNext,
+    }
+
+    if (handleKeys[key]) {
+      handleKeys[key]()
+    }
+  }
+
   return (
     <>
       <HeaderMobile index={productIndex} setIndex={setProductIndex} />
-      <main className="lg:h-screen">
+      <main className="lg:h-screen" onKeyDown={handleKeyDown}>
         <div className="flex h-2/3">
           <HeaderDesktop index={productIndex} />
 
@@ -60,7 +74,7 @@ export default function Home() {
               className="lg:px-20"
             />
             <div className="absolute bottom-0 left-0 w-32 h-[4rem] sm:hidden">
-              <Pagination limit={2} setIndex={setProductIndex} iconSize={12} />
+              <Pagination iconSize={12} limit={2} setIndex={setProductIndex} />
             </div>
           </div>
         </div>
