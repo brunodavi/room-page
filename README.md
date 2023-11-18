@@ -1,93 +1,75 @@
-# Frontend Mentor - Room homepage
+# Frontend Mentor - Solução para a página inicial do Room
 
-![Design preview for the Room homepage coding challenge](./design/desktop-preview.jpg)
+Esta é uma solução para o [desafio da página inicial do Room no Frontend Mentor](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq). Os desafios do Frontend Mentor ajudam a melhorar suas habilidades de codificação ao construir projetos realistas.
 
-## Welcome! 👋
+## Sumário
 
-Thanks for checking out this front-end coding challenge.
+- [Frontend Mentor - Solução para a página inicial do Room](#frontend-mentor---solução-para-a-página-inicial-do-room)
+  - [Sumário](#sumário)
+  - [Visão Geral](#visão-geral)
+    - [O Desafio](#o-desafio)
+    - [Captura de Tela](#captura-de-tela)
+    - [Links](#links)
+  - [Meu Processo](#meu-processo)
+    - [Construído com](#construído-com)
+    - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
+  - [Autor](#autor)
+  - [Agradecimentos](#agradecimentos)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Visão Geral
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+### O Desafio
 
-## The challenge
+Os usuários devem ser capazes de:
 
-Your challenge is to build out this e-commerce homepage and get it looking as close to the design as possible.
+- Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo
+- Ver estados de hover para todos os elementos interativos na página
+- Navegar pelo slider usando o mouse/trackpad ou teclado
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Captura de Tela
 
-Your users should be able to:
+![my-solution](/design/my-solution.png.jpg)
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Navigate the slider using either their mouse/trackpad or keyboard
+Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito na página e selecionar "Capturar Tela". Você pode escolher entre uma captura de tela de altura total ou uma recortada, dependendo do comprimento da página. Se for muito longa, pode ser melhor recortá-la.
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+Alternativamente, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para tirar a captura de tela. O FireShot tem uma opção gratuita, então você não precisa comprá-lo.
 
-## Where to find everything
+Em seguida, recorte/otimize/edite sua imagem como preferir, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- URL da Solução: [Github](https://github.com/brunodavi/room-page)
+- URL do Site: [Site](https://room-page-six.vercel.app)
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## Meu Processo
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Construído com
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- Marcação HTML5 Semântica
+- Fluxo de trabalho 'Mobile-first'
+- [React](https://reactjs.org) - Biblioteca JS
+- [TypeScript](https://www.typescriptlang.org) - Pré-Compilador de JS Tipado
+- [Next.js](https://nextjs.org) - Framework React
+- [TailwindCSS](https://tailwindcss.com) - Para estilos
+  - [DaisyUI](https://daisyui.com) - Biblioteca de estilos para TailwindCSS
 
-## Building your project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### Desenvolvimento Contínuo
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Nesta seção, pretendo concentrar meus esforços em aprimorar minha habilidade na estruturação eficiente de páginas, especialmente no que diz respeito à adaptação de layouts responsivos. Tenho o objetivo de desenvolver métodos mais elegantes que evitem a necessidade de criar múltiplos cabeçalhos para diferentes dispositivos, proporcionando uma transição suave entre diferentes tamanhos de tela.
 
-## Deploying your project
+Além disso, busco aperfeiçoar a estrutura geral dos meus projetos, adotando práticas mais eficazes e organizadas. Isso inclui explorar abordagens mais avançadas na gestão de estilos, componentes e funcionalidades, garantindo uma manutenção facilitada e uma base sólida para futuras expansões.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+## Autor
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- Website - [portfolio](https://brunodavi.vercel.app)
+- Frontend Mentor - [@brunodavi](https://www.frontendmentor.io/profile/brunodavi)
+- LinkedIn - [@brunodavi](https://www.linkedin.com/in/brunodavi)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-## Create a custom `README.md`
+## Agradecimentos
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+Agradeço o @tediko por ter feito projeto com várias animações na criação do mesmo desafio
+servindo para mim como inspiração do que tenho a aprender
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+[Projeto citado](https://roomhomepage-tediko.netlify.app)
