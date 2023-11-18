@@ -63,7 +63,7 @@ Além disso, busco aperfeiçoar a estrutura geral dos meus projetos, adotando pr
 
 ## Agradecimentos
 
-Agradeço o @tediko por ter feito projeto com várias animações na criação do mesmo desafio
+Agradeço o [@tediko](https://github.com/tediko) por ter feito projeto com várias animações na criação do mesmo desafio
 servindo para mim como inspiração do que tenho a aprender
 
 [Projeto citado](https://roomhomepage-tediko.netlify.app)
