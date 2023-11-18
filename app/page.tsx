@@ -7,7 +7,6 @@ import HeaderMobile from "./components/mobile/HeaderMobile";
 import HeaderDesktop from "./components/desktop/HeaderDesktop";
 import Pagination from "./components/shared/Pagination";
 import About from "./components/shared/About";
-import Footer from "./components/shared/Footer";
 
 const productList = [
   {
@@ -65,10 +64,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <About />
       </main>
-      <Footer />
     </>
   );
 }

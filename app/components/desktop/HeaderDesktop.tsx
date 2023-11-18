@@ -24,21 +24,21 @@ export default function HeaderDesktop({ index }: HeaderDesktopType) {
       />
       <nav className="w-56">
         <ul className="flex justify-between">
-          <li className="flex flex-col items-center group">
+          <li className="transition flex flex-col items-center group">
             <a href="#">home</a>
-            <div className="bg-white w-4 h-px invisible group-hover:visible" />
+            <div className="bg-white h-px transition-all ease-in w-0 group-hover:w-4" />
           </li>
           <li className="flex flex-col items-center group">
             <a href="#shop">shop</a>
-            <div className="bg-white w-4 h-px invisible group-hover:visible" />
+            <div className="bg-white h-px transition-all ease-in w-0 group-hover:w-4" />
           </li>
           <li className="flex flex-col items-center group">
             <a href="#about">about</a>
-            <div className="bg-white w-4 h-px invisible group-hover:visible" />
+            <div className="bg-white h-px transition-all ease-in w-0 group-hover:w-4" />
           </li>
           <li className="flex flex-col items-center group">
-            <a href="#contact">contact</a>
-            <div className="bg-white w-4 h-px invisible group-hover:visible" />
+            <a href="/contact">contact</a>
+            <div className="bg-white h-px transition-all ease-in w-0 group-hover:w-4" />
           </li>
         </ul>
       </nav>
