@@ -31,12 +31,6 @@ Os usuários devem ser capazes de:
 
 ![my-solution](design/my-solution.png)
 
-Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito na página e selecionar "Capturar Tela". Você pode escolher entre uma captura de tela de altura total ou uma recortada, dependendo do comprimento da página. Se for muito longa, pode ser melhor recortá-la.
-
-Alternativamente, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para tirar a captura de tela. O FireShot tem uma opção gratuita, então você não precisa comprá-lo.
-
-Em seguida, recorte/otimize/edite sua imagem como preferir, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
-
 ### Links
 
 - URL da Solução: [Github](https://github.com/brunodavi/room-page)
